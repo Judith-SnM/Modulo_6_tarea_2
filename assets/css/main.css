@@ -1,0 +1,13 @@
+body {
+    background-color: #d4ffd4; /* Verde claro */
+}
+
+.navbar {
+    background-color: #005000; /* Verde oscuro */
+}
+
+.navbar-brand {
+    margin: 0 auto; /* Centrar el icono */
+    display: flex;
+    justify-content: center;
+}

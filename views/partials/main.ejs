@@ -1,0 +1,11 @@
+<div class="container mt-5">
+    <div class="jumbotron text-center">
+        <h1 class="display-4">Bienvenido al mercado WEB</h1>
+        <p class="lead">Seleccione sus productos:</p>
+        <div class="row row-cols-1 row-cols-md-3 g-4">
+            <% productos.forEach(producto => { %>
+                <%- include('partials/producto', { nombre: producto }) %>
+            <% }) %>
+        </div>
+    </div>
+</div>
